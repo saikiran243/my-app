@@ -1,4 +1,4 @@
-node('slave'){
+node('windows'){
    stage('SCM Checkout'){
      git 'https://github.com/saikiran243/my-app'
    }
